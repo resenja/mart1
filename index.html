@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="stil.css" />
+  </head>
+  <body>
+    <div>
+      <p>Formular za obracun mesecne rate</p>
+      <table>
+        <tr>
+          <th colspan="2">Unesite podatke:</th>
+        </tr>
+        <tr>
+          <td>ime:</td>
+          <td><input type="text" id="ime" /></td>
+        </tr>
+        <tr>
+          <td>prezime</td>
+          <td><input type="text" id="prezime" /></td>
+        </tr>
+        <tr>
+          <td>datum rodjenja</td>
+          <td><input type="date" id="datum" /></td>
+        </tr>
+        <tr>
+          <td>iznos kredita</td>
+          <td><input type="number" id="ukupno" /></td>
+        </tr>
+        <tr>
+          <td>broj meseci</td>
+          <td><input type="number" id="meseci" /></td>
+        </tr>
+        <tr>
+          <td>kamata u %</td>
+          <td><input type="number" id="kamata" /></td>
+        </tr>
+      </table>
+      <button>Obracunaj</button>
+      <h3></h3>
+    </div>
+
+    <!-- JS fajl uvek na dno body taga -->
+    <script src="app.js"></script>
+  </body>
+</html>
